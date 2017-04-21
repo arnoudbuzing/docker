@@ -11,7 +11,7 @@ RUN yum -y groupinstall X11
 
 # wolfram-engine
 
-RUN rpm --install 'wolfram-engine-11.1.0.5693261-1.internal.x86_64.rpm'
+RUN rpm --install wolfram-engine-11.1.0.5693261-1.internal.x86_64.rpm
 
 # password stuff
 
