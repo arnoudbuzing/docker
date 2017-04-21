@@ -12,7 +12,7 @@ RUN yum -y groupinstall X11
 # wolfram-engine
 
 RUN cd /tmp
-RUN curl -O http://10.128.1.19/M-LINUX-WRS/11.1.1/5718455/Files/M-LINUX-WRS-11.1.1-5718455.sh
+RUN curl -O M-LINUX-WRS-11.1.1-5718455.sh
 RUN chmod a+x M-LINUX-WRS-11.1.1-5718455.sh
 RUN ./M-LINUX-WRS-11.1.1-5718455.sh -- -silent
 
